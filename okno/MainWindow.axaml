@@ -2,8 +2,14 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="420" d:DesignHeight="260"
         x:Class="okno.MainWindow"
-        Title="okno">
-    Welcome to Avalonia!
+        Width="420" Height="260"
+        Title="Wordle PL">
+    <Border Background="#f4f4f4" Padding="24">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="12">
+            <TextBlock Text="Wordle PL" FontSize="28" FontWeight="Bold" Foreground="#1f1f1f" />
+            <TextBlock Text="Mała zmiana w oknie gotowa!" FontSize="16" Foreground="#444444" />
+        </StackPanel>
+    </Border>
 </Window>
