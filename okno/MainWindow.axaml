@@ -2,14 +2,36 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="420" d:DesignHeight="260"
+        mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="400"
         x:Class="okno.MainWindow"
-        Width="420" Height="260"
-        Title="Wordle PL">
-    <Border Background="#f4f4f4" Padding="24">
+        Width="600" Height="400"
+        Title="Moja Aplikacja v2"
+        WindowStartupLocation="CenterScreen">
+    <Border Background="#f2f2f2" Padding="24">
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="12">
-            <TextBlock Text="Wordle PL" FontSize="28" FontWeight="Bold" Foreground="#1f1f1f" />
-            <TextBlock Text="Mała zmiana w oknie gotowa!" FontSize="16" Foreground="#444444" />
+            <TextBlock Text="Warsztat"
+                       FontSize="36"
+                       FontWeight="Bold"
+                       Foreground="Blue"
+                       Background="#FFD700"
+                       Padding="8,4"
+                       HorizontalAlignment="Center" />
+
+            <TextBlock Text="Wersja testowa"
+                       FontSize="18"
+                       Foreground="#333333"
+                       HorizontalAlignment="Center" />
+
+            <TextBox Width="220"
+                     PlaceholderText="Wpisz coś..."
+                     HorizontalAlignment="Center" />
+
+            <Button Content="Kliknij mnie"
+                    Background="Green"
+                    Foreground="White"
+                    Padding="16,8"
+                    HorizontalAlignment="Center"
+                    Margin="20" />
         </StackPanel>
     </Border>
 </Window>
